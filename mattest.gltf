@@ -1,0 +1,244 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Maya 2018 v20200513.4"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "group1"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.02503874,
+        0,
+        0.017366685
+      ],
+      "scale": [
+        2.51704717,
+        2.51704717,
+        2.51704717
+      ],
+      "name": "pSphere1"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -0.0183317531,
+        0.00671163062,
+        -0.02184496
+      ],
+      "scale": [
+        2.95933628,
+        2.95933628,
+        2.95933628
+      ],
+      "name": "pCone1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "pSphere1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "TANGENT": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "pCone1"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 2280,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 439,
+      "max": [
+        0.01,
+        0.01,
+        0.0100000007
+      ],
+      "min": [
+        -0.0100000026,
+        -0.01,
+        -0.0100000044
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 439,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5268,
+      "componentType": 5126,
+      "count": 439,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 439,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4560,
+      "componentType": 5123,
+      "count": 114,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10536,
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        0.01,
+        0.01,
+        0.0100000007
+      ],
+      "min": [
+        -0.0100000026,
+        -0.01,
+        -0.0100000044
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 7024,
+      "componentType": 5126,
+      "count": 42,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 11040,
+      "componentType": 5126,
+      "count": 42,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 3512,
+      "componentType": 5126,
+      "count": 42,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4788,
+      "name": "bufferViewScalar",
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4788,
+      "byteLength": 11544,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16332,
+      "byteLength": 7696,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24028,
+      "byteLength": 3848,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "mattest_data.bin",
+      "byteLength": 27876
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8196,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.33
+      },
+      "name": "Mat1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3858,
+          0.7618,
+          0.7618,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.33
+      },
+      "name": "Mat2"
+    }
+  ]
+}
